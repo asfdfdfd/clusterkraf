@@ -140,7 +140,7 @@ public class Clusterkraf {
 		}
 		
 		currentClusters = null;
-		currentClusterPointsByMarker = null;
+		currentClusterPointsByMarker = new HashMap<Marker, ClusterPoint>();
 		currentMarkers = null;
 		previousClusters = null;
 		previousMarkers = null;
